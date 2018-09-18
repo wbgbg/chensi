@@ -4,9 +4,10 @@ node_js:
 branches:
   only:
   - master
+cache: yarn
 install:
 - npm install hexo-cli -g
-- npm install
+- yarn install
 script:
   - hexo clean  #清除
   - hexo g
