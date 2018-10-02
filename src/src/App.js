@@ -3,9 +3,7 @@ import { Layout, Dropdown, Button } from 'antd';
 import { Menu, Icon, Carousel, Divider, Row, Col } from 'antd';
 import './App.css';
 
-const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
-const { Header, Footer, Sider, Content } = Layout;
+const { Header, Footer, Content } = Layout;
 
 
 class App extends Component {
@@ -25,7 +23,7 @@ class App extends Component {
       <Layout>
         <Header>
           <div className="logo" style={{width: '200px', height: '64px', float: 'left'}}>
-            <img src="https://via.placeholder.com/64x64"></img>
+            <img src="https://via.placeholder.com/64x64" alt="logo"></img>
             <span style={{color: '#ffffff', fontSize: '20pt', marginLeft: '25px'}}>IdotLight</span>
           </div>
           <Menu
@@ -46,7 +44,7 @@ class App extends Component {
           <div style={{position: 'absolute', right: '30px', top: '0px'}}>
             <Icon type="global" theme="outlined" style={{color: '#FFFFFF', marginRight: '10px'}} />
             <Dropdown overlay={this.menu}>
-              <a className="ant-dropdown-link" href="#">
+              <a className="ant-dropdown-link" href="./zh_CN">
                 简体中文<Icon type="down" />
               </a>
             </Dropdown>
