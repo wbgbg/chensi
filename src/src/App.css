@@ -3,3 +3,46 @@
 .App {
   text-align: center;
 }
+
+.logo {
+  display: flex;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+.product-pic {
+  width: 100%;
+  height: 100%;
+  background: #364d79;
+}
+
+.pic-container {
+  height: 100%;
+}
+
+.ant-layout-footer {
+  padding: 0px;
+  line-height: 2em;
+}
+
+.sub-title {
+  font-size: 24pt;
+  line-height: 32pt;
+  padding-bottom: 20px;
+}
+
+.prev-icon {
+  padding-right: 10px;
+}
+
+.footer {
+  background:  #000e1c;
+  color: #ffffff;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
