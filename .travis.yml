@@ -11,7 +11,7 @@ install:
 script:
   - hexo clean  #清除
   - hexo g
-  - cd src && npm run build
+  - cd src && npm install && npm run build
 env:
   global:
     secure: rGJDItwziLjUhVROeBVHERatY/n39MTUsEZQmQfGAr71uJvbQz2jbF3+/azfpz5wNbNzwfe8SFQpfwnzMv/VQ3u+NtryaVFcxxqX/TMatFuIQbsxut9jB2lhfGqLHcxfc2Dm6qTwdC9cRRilIYL1c/ItD3YSndqdd7h6628wWo4ANqfx0rhq9ITyTZU2H3JEqikLqpYkQMdQoKnW1JMiNzlxERBb5gGTVq5CFLI4gKZr2l/uXXvSP7x4mxVZWw9+on7D3Jo2a0Qc0g5Ws5dm//NIsIM/nhM9m8gUVOkAfyYNhva8HbfDjw5A+hhvb61FDBr7++1ZrVtx8iRyszGz4/a+5phzeZ4UBRqxHdtU99YWWLnJSfKk0/UzP4poAUhu7iOnbjOTllLuFSN1spENaIJUXXyYzpsVu3esqJt+fUo/ZSbqIjN61o8mYMdmycfAPHw46wdaUZNAaPUAgSaMNzx7T4LPGxMdggSjVLm8yi5H5poDtZD0GqRn3fZ/y360yRPb9jL0MR4s7OFiZ77Eo9SebQtQ3cg+m14jIcwLNDXpogSR7Kf2VFuGg0JrGH/uQ0f4IPEQiwwMvgTwLbNzGip9SewsqTJiaPz6rRoroWdEMeXqHzv8vnqAA1WYsbi75G5VPOLfghK8BUM7Jyf1XZFb39VzIC7Ozr91p4UA8Sw=
